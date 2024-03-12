@@ -316,6 +316,9 @@ class MainVC: BaseViewController, CLLocationManagerDelegate, DrawerDelegate, Set
         geo.reverseGeocodeCoordinate(marker.position, completionHandler: { (response, error) in
             let sample = response
             let fullAddress = sample?.firstResult()
+            if let fullAddress = fullAddress?.lines?[0]{
+                self.address = fullAddress
+            }
             //self.address = (fullAddress?.lines?[0])!
             //self.address = (fullAddress?.lines![0].removeAfter(character: ","))!
             if self.btnAlert.isUserInteractionEnabled {

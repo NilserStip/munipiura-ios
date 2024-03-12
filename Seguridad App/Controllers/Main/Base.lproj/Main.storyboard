@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -13,7 +13,7 @@
         <!--DrawerVC-->
         <scene sceneID="xiN-zB-LgO">
             <objects>
-                <viewController id="wYu-2d-4tQ" customClass="DrawerVC" customModule="Seguridad_Mi_Peru" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wYu-2d-4tQ" customClass="DrawerVC" customModule="Alerta_Piura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vGS-DM-7VM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +33,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iyh-ZC-F3k">
                                                 <rect key="frame" x="0.0" y="99" width="320" height="134"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4W-1u-lK4" customClass="CardView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4W-1u-lK4" customClass="CardView" customModule="Alerta_Piura" customModuleProvider="target">
                                                         <rect key="frame" x="8" y="8" width="304" height="118"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.68999999999999995" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_phone" translatesAutoresizingMaskIntoConstraints="NO" id="RVS-9m-Ffh">
@@ -598,7 +598,7 @@
         <!--SettingsVC-->
         <scene sceneID="xeH-PV-fso">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="aZk-ca-1xl" customClass="SettingsVC" customModule="Seguridad_Mi_Peru" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="aZk-ca-1xl" customClass="SettingsVC" customModule="Alerta_Piura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hnE-cq-USF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -628,7 +628,7 @@
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellSettings" id="iQd-NI-UDZ">
-                                        <rect key="frame" x="0.0" y="44.5" width="320" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="50" width="320" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iQd-NI-UDZ" id="4M1-bn-PPy">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -704,7 +704,7 @@
         <!--CommentVC-->
         <scene sceneID="sIY-cz-DgM">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="7m0-eu-TVN" customClass="CommentVC" customModule="Seguridad_Mi_Peru" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="7m0-eu-TVN" customClass="CommentVC" customModule="Alerta_Piura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QMx-Nv-ylm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -890,7 +890,7 @@
         <!--Password UpdateVC-->
         <scene sceneID="V7h-9H-BE8">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="e3X-Zw-egb" customClass="PasswordUpdateVC" customModule="Seguridad_Mi_Peru" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="e3X-Zw-egb" customClass="PasswordUpdateVC" customModule="Alerta_Piura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yGE-8v-RsY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1086,91 +1086,91 @@
         <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MainVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="MainVC" customModule="Seguridad_Mi_Peru" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="MainVC" customModule="Alerta_Piura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uT-gc-sXJ" customClass="GMSMapView">
-                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ewm-U7-Ac6">
                                 <rect key="frame" x="0.0" y="248" width="320" height="320"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M8p-ba-F0F" customClass="CircleImageView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M8p-ba-F0F" customClass="CircleImageView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                     </imageView>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixr-Ra-JAu" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixr-Ra-JAu" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                         <connections>
                                             <action selector="btnCategory1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uEK-NQ-Z7e"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8kf-S3-BWa" customClass="CircleImageView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8kf-S3-BWa" customClass="CircleImageView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                     </imageView>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCB-lH-9lB" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCB-lH-9lB" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                         <connections>
                                             <action selector="btnCategory2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDJ-Y0-Ev9"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-2a-4gs" customClass="CircleImageView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-2a-4gs" customClass="CircleImageView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                     </imageView>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8X-Fa-wnD" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8X-Fa-wnD" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                         <connections>
                                             <action selector="btnCategory3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aYP-jv-L3D"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1mG-hF-gCE" customClass="CircleImageView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1mG-hF-gCE" customClass="CircleImageView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                     </imageView>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TqZ-M1-reL" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TqZ-M1-reL" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                         <connections>
                                             <action selector="btnCategory4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LKv-o3-QwF"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2yG-ur-vmS" customClass="CircleImageView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2yG-ur-vmS" customClass="CircleImageView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                     </imageView>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4h5-dM-IiF" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4h5-dM-IiF" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                         <connections>
                                             <action selector="btnCategory5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Xq-Ro-Rzo"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TKT-H5-CvR" customClass="CircleImageView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TKT-H5-CvR" customClass="CircleImageView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                     </imageView>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCF-wd-Zdj" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCF-wd-Zdj" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                         <connections>
                                             <action selector="btnCategory6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYa-ai-lOY"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ffq-0b-FBk" customClass="CircleImageView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ffq-0b-FBk" customClass="CircleImageView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                     </imageView>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpo-Bd-myl" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpo-Bd-myl" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                         <connections>
                                             <action selector="btnCategory7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rXg-cr-hoa"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eyw-99-J91" customClass="CircleImageView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eyw-99-J91" customClass="CircleImageView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                     </imageView>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lph-Fo-2Jq" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lph-Fo-2Jq" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="120" y="120" width="80" height="80"/>
                                         <connections>
                                             <action selector="btnCategory8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p6w-hL-CA3"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwf-Mc-0aq" customClass="CircleButton" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwf-Mc-0aq" customClass="CircleButton" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="100" y="100" width="120" height="120"/>
                                         <state key="normal" backgroundImage="ic_btn_alert_red"/>
                                         <connections>
@@ -1260,9 +1260,9 @@
                                 </constraints>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IYC-ee-YeC">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="128"/>
                                 <subviews>
-                                    <view clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Cf-0K-3CZ" customClass="OvalView" customModule="Seguridad_Mi_Peru" customModuleProvider="target">
+                                    <view clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Cf-0K-3CZ" customClass="OvalView" customModule="Alerta_Piura" customModuleProvider="target">
                                         <rect key="frame" x="-128" y="-156" width="576" height="256"/>
                                         <color key="backgroundColor" name="primaryColor"/>
                                         <constraints>
@@ -1278,7 +1278,7 @@
                                 </constraints>
                             </view>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfG-2W-jvL">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <color key="barTintColor" name="primaryColor"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1295,7 +1295,7 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Obteniendo ubicación..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEk-iH-P7U">
-                                <rect key="frame" x="32" y="52" width="256" height="34"/>
+                                <rect key="frame" x="32" y="72" width="256" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="256" id="P9Q-bQ-ptd"/>
                                     <constraint firstAttribute="height" constant="34" id="U73-jQ-ySg"/>
@@ -1376,7 +1376,7 @@
         <!--ReportVC-->
         <scene sceneID="fKO-dL-OPh">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="hPl-Xg-6hb" customClass="ReportVC" customModule="Seguridad_Mi_Peru" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hPl-Xg-6hb" customClass="ReportVC" customModule="Alerta_Piura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0w4-DE-3rX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1624,7 +1624,7 @@
         <!--IncidenceVC-->
         <scene sceneID="pkA-74-ywS">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="hny-U8-mee" customClass="IncidenceVC" customModule="Seguridad_Mi_Peru" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hny-U8-mee" customClass="IncidenceVC" customModule="Alerta_Piura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Ne-Sn-5Lc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1654,7 +1654,7 @@
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIncidence" rowHeight="48" id="PJ3-pg-Af8">
-                                        <rect key="frame" x="0.0" y="44.5" width="320" height="48"/>
+                                        <rect key="frame" x="0.0" y="50" width="320" height="48"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PJ3-pg-Af8" id="D1G-zi-5h9">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
@@ -1731,7 +1731,7 @@
         <!--SubjectVC-->
         <scene sceneID="wah-3w-fPX">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="q1l-q8-e92" customClass="SubjectVC" customModule="Seguridad_Mi_Peru" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="q1l-q8-e92" customClass="SubjectVC" customModule="Alerta_Piura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Ew-Es-4Z7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1761,7 +1761,7 @@
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellSubject" rowHeight="48" id="jYm-M3-cEw">
-                                        <rect key="frame" x="0.0" y="44.5" width="320" height="48"/>
+                                        <rect key="frame" x="0.0" y="50" width="320" height="48"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jYm-M3-cEw" id="Wgz-zD-PpD">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
@@ -1830,7 +1830,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="maX-ud-Wmt"/>
+        <segue reference="UEv-lV-ygF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ic_arrow_back" width="24" height="24"/>
@@ -1852,7 +1852,7 @@
             <color red="0.88200002908706665" green="0.063000001013278961" blue="0.063000001013278961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="primaryDarkColor">
-            <color red="0.49803921568627452" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.62699997425079346" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="white">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

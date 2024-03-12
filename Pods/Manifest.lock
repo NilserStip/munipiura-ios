@@ -1,10 +1,10 @@
 PODS:
   - ActiveLabel (1.1.0)
   - Alamofire (5.0.5)
-  - GoogleMaps (6.2.1):
-    - GoogleMaps/Maps (= 6.2.1)
-  - GoogleMaps/Base (6.2.1)
-  - GoogleMaps/Maps (6.2.1):
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
     - GoogleMaps/Base
   - IQKeyboardManagerSwift (6.5.0)
   - Nuke (8.4.1)
@@ -45,7 +45,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
   Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
-  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
   IQKeyboardManagerSwift: 6cd19976c6e871907c4ed9127c2d3affdd4defc2
   Nuke: d780e3507a86b86c589ab3cc5cd302d5456f06fb
   SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2

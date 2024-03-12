@@ -22,12 +22,11 @@ struct ZoneService: Codable {
             {
                print(jsonArray) // use the json here
                 for item in jsonArray {
-
-                    area.add(CLLocationCoordinate2D(
-                        latitude: Double(item["lat"] as! String) ?? 0.0,
-                        longitude: Double(item["lng"] as! String) ?? 0.0
-                        )
-                    )
+                    if let latitude = item["lat"]{
+                        if let lng = item["lng"] {
+                            area.add(CLLocationCoordinate2D(latitude: latitude as! CLLocationDegrees, longitude: lng as! CLLocationDegrees))
+                        }
+                    }
                 }
             } else {
                 print("bad zone service json")
