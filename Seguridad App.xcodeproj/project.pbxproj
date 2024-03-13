@@ -609,8 +609,9 @@
 			baseConfigurationReference = DC71E16DE3422C54CADB4AF9 /* Pods-Seguridad Veintiseis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8F8HP8Y6S9;
+				DEVELOPMENT_TEAM = 9L8529BV9T;
 				INFOPLIST_FILE = "Seguridad App/Flavors/veintiseis/veintiseis-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -618,8 +619,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.piurabonitampp.piurabonita.Clip.benito;
+				PRODUCT_BUNDLE_IDENTIFIER = com.munipiura.alertapiura;
 				PRODUCT_NAME = "Alerta Piura";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -634,8 +636,9 @@
 			baseConfigurationReference = 2B0E7CE2B48E8D4BA64D2FD2 /* Pods-Seguridad Veintiseis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8F8HP8Y6S9;
+				DEVELOPMENT_TEAM = 9L8529BV9T;
 				INFOPLIST_FILE = "Seguridad App/Flavors/veintiseis/veintiseis-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -643,8 +646,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.piurabonitampp.piurabonita.Clip.benito;
+				PRODUCT_BUNDLE_IDENTIFIER = com.munipiura.alertapiura;
 				PRODUCT_NAME = "Alerta Piura";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
