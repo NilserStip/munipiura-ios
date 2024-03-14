@@ -14,7 +14,7 @@ enum FlavorSetting {
     static let appName = "Alerta Piura"
     static let gMapsKey = "AIzaSyBDo01RK1LxvqGaS8trUPbXVmClZ2rfVAQ"
     static let appStoreUrl = "https://www.apple.com"
-    static let loginTitle = "Municipalidad Distrital\nVeintiséis de Octubre"
+    static let loginTitle = "Municipalidad Provincial de Piura"
     static let isAdSliderEnabled = false
     
     // Drawer settings
